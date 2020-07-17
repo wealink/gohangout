@@ -1,0 +1,1 @@
+go build -buildmode=plugin -o plugin/fileoutput.so plugin/fileoutput.go 
