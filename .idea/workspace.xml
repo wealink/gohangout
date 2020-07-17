@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87b94fe2-fd99-4b80-9c5b-5ed3857b9160" name="Default Changelist" comment="pluign outfile开发" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.2_1/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ekfrhvCJo2A3mN1KoD4z9bs2A5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pluign outfile开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="pluign outfile开发" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="954" y="1575" key="#Inspections" timestamp="1594886386226">
+      <screen x="600" y="1440" width="1440" height="900" />
+    </state>
+    <state x="954" y="1575" key="#Inspections/600.1440.1440.900/0.0.2560.1440@600.1440.1440.900" timestamp="1594886386226" />
+    <state x="1052" y="1699" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594885431290">
+      <screen x="600" y="1440" width="1440" height="900" />
+    </state>
+    <state x="1052" y="1699" key="#com.intellij.fileTypes.FileTypeChooser/600.1440.1440.900/0.0.2560.1440@600.1440.1440.900" timestamp="1594885431290" />
+    <state x="920" y="1630" key="Vcs.Push.Dialog.v2" timestamp="1594957121784">
+      <screen x="600" y="1440" width="1440" height="900" />
+    </state>
+    <state x="920" y="1630" key="Vcs.Push.Dialog.v2/600.1440.1440.900/0.0.2560.1440@600.1440.1440.900" timestamp="1594957121784" />
+    <state x="985" y="1636" width="670" height="676" key="search.everywhere.popup" timestamp="1594955317944">
+      <screen x="600" y="1440" width="1440" height="900" />
+    </state>
+    <state x="985" y="1636" width="670" height="676" key="search.everywhere.popup/600.1440.1440.900/0.0.2560.1440@600.1440.1440.900" timestamp="1594955317944" />
+  </component>
+</project>
