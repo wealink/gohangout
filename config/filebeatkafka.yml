@@ -1,0 +1,33 @@
+inputs:
+  #     - Stdin:{}
+  - Kafka:
+      topic:
+          prod_logs: 1
+      #assign:
+      #  server_log01: [0,1,2,3]
+      codec: json
+      consumer_settings:
+        bootstrap.servers: "10.80.82.203:31090,10.80.82.203:31091,10.80.82.203:31092"
+        group.id: logs
+        from.beginning: 'false'
+        max.partition.fetch.bytes: '10485760'
+        auto.commit.interval.ms: '5000'
+
+filters:
+  - Grok:
+      src: message
+      match:
+        - '^(?P<logtime>\S+ \S+) '
+  - Date:
+      src: 'logtime'
+      target: '@timestamp'
+      location: Asia/Shanghai
+      add_year: false
+      overwrite: true
+      formats:
+        - '2006-01-02 15:04:05.000'
+      remove_fields: ["logtime"]
+
+
+outputs:
+  - Stdout: {}
