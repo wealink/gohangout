@@ -38,4 +38,4 @@ filters:
 
 outputs:
   #- Stdout: {}
-  - './plugin/filebeatkafka/filebeatkafka.so': {}
+  - 'plugin/filebeatkafka/filebeatkafka.so': {}
