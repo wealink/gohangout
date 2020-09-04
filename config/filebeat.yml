@@ -1,0 +1,24 @@
+filebeat.inputs:
+  - type: log
+    # Change to true to enable this input configuration.
+    enabled: true
+    # Paths that should be crawled and fetched. Glob based paths.
+    paths:
+      - /data/logs/swarm/*/*/*.log
+    include_lines: ['^\d{4}-\d{2}-\d{2}']
+    multiline.pattern: ^\d{4}-\d{2}-\d{2}
+    multiline.negate: true
+    multiline.match: after
+
+processors:
+  - drop_fields:
+      fields: ["ecs","agent","host","input"]
+
+output.kafka:
+  hosts: ["10.80.82.203:31090", "10.80.82.203:31091", "10.80.82.203:31090"]
+  topic: 'prod_logs'
+  partition.round_robin:
+    reachable_only: false
+  required_acks: 1
+  compression: gzip
+  max_message_bytes: 1000000
