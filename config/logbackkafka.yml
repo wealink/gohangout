@@ -19,4 +19,4 @@ filters:
         - '^(?P<logtime>\S+ \S+) (?P<appname>\w+)'
       remove_fields: ["logtime"]
 outputs:
-  - 'plugin/logbackkafka.so': {}
+  - 'plugin/logbackkafka/logbackkafka.so': {}
