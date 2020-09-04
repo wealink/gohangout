@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM golang:1.14.8-alpine3.12
 ARG TZ="Asia/Shanghai"
 ENV TZ ${TZ}
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
