@@ -8,4 +8,4 @@ COPY . /opt/gohangout
 RUN go env -w GO111MODULE=on && go env -w GOPROXY=https://goproxy.cn,direct && make
 RUN go build -buildmode=plugin -o plugin/filebeatkafka/filebeatkafka.so plugin/filebeatkafka/filebeatkafka.go
 
-CMD [ "sh", "-c","build/gohangout --config config/filebeatkafka.yml" ]
+CMD [ "sh", "-c","build/gohangout --config config/filebeatkafka.yml -logtostderr -v 5" ]
