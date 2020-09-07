@@ -5,4 +5,5 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 RUN apk upgrade --update && apk add bash tzdata curl && ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime
 WORKDIR /opt/gohangout
 COPY . /opt/gohangout
-ENTRYPOINT [ "build/gohangout","--config", "config/filebeatkafka.yml" ]
+RUN ln -s /opt/gohangout/build/gohangout /usr/local/bin/gohangout
+ENTRYPOINT [ "gohangout","--config", "config/filebeatkafka.yml" ]
