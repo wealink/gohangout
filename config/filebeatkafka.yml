@@ -5,7 +5,7 @@ inputs:
           prod_logs: 1
       codec: json
       consumer_settings:
-        bootstrap.servers: "10.80.82.201:31090,10.80.82.201:31091,10.80.82.201:31092"
+        bootstrap.servers: "10.80.82.205:31090,10.80.82.205:31091,10.80.82.205:31092"
         group.id: logs
         from.beginning: 'false'
         max.partition.fetch.bytes: '10485760'
