@@ -6,4 +6,4 @@ RUN apk upgrade --update && apk add bash tzdata curl && ln -sf /usr/share/zonein
 WORKDIR /opt/gohangout
 COPY . /opt/gohangout
 RUN ln -s /opt/gohangout/build/gohangout /usr/local/bin/gohangout
-ENTRYPOINT [ "gohangout","--config", "config/filebeatkafka.yml" ]
+CMD [ "sh -c ","gohangout","--config", "config/filebeatkafka.yml" ]
